@@ -8,7 +8,7 @@ cask "syride-sys-pc-tool" do
   homepage "https://www.syride.com"
 
   auto_updates true
-  depends_on macos: ">= :monterey"
+  depends_on macos: ">= :sierra"
 
   pkg "SYS_PC_TOOL_setup_mac-#{version}.pkg",
     choices: [
