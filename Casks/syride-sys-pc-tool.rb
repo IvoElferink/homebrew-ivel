@@ -16,7 +16,7 @@ cask "syride-sys-pc-tool" do
 
   uninstall pkgutil: [
                      ],
-            delete: "/Applications/SYS_PC_TOOL.app"
+            delete: "/Applications/SYS-PC-Tool.app"
 
   zap trash: [
     "~/Library/Saved Application State/Syride.SYS-PC-Tool.savedState",
