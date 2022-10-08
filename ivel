@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo "This is an test of homebrew tap by ivel"

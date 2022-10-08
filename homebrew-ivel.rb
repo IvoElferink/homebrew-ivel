@@ -10,7 +10,7 @@ class HomebrewIvel < Formula
   depends_on "jq"
 
   def install
-    bin.install "homebrewivel"
+    bin.install "ivel"
     prefix.install "README.md"
     prefix.install "LICENSE"
   end
