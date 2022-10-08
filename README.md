@@ -11,11 +11,11 @@ Homebrew Tap by ivel
 
 ## casks
 ### MultiViewer for F1
-MultiViewer for F1
+Experience F1TV® like never before
 - Install: `brew install f1mv`
 - Uninstall: `brew uninstall f1mv`
 
 ### Syride SYS PC Tookl
-Syride SYS PC Tool Software
+Necessary for downloading flights, customizing screens, upgrading instrument...
 - Install: `brew install syride-sys-pc-tool`
 - Uninstall: `brew uninstall syride-sys-pc-tool`
