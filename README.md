@@ -11,9 +11,11 @@ Homebrew Tap by ivel
 
 ## casks
 ### MultiViewer for F1
-`brew install f1mv`
-`brew uninstall f1mv`
+MultiViewer for F1
+- Install: `brew install f1mv`
+- Uninstall: `brew uninstall f1mv`
 
 ### Syride SYS PC Tookl
-`brew install syride-sys-pc-tool`
-`brew uninstall syride-sys-pc-tool`
+Syride SYS PC Tool Software
+- Install: `brew install syride-sys-pc-tool`
+- Uninstall: `brew uninstall syride-sys-pc-tool`
