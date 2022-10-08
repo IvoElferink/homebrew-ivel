@@ -1,4 +1,4 @@
-cask "syride" do
+cask "syride-sys-pc-tool" do
   version "6.31"
   sha256 "1d3b9dc8a156aba4e973afbc591f7258e1544d5ae0851d2f044a0b9b4963b0ff"
 
@@ -10,11 +10,17 @@ cask "syride" do
   auto_updates true
   depends_on macos: ">= :monterey"
 
-  app "SYS-PC-Tool.app"
+  pkg "SYS_PC_TOOL_setup_mac-#{version}.pkg",
+    choices: [
+             ]
+
+  uninstall pkgutil: [
+                     ],
+            delete: "/Applications/SYS_PC_TOOL.app"
 
   zap trash: [
     "~/Library/Saved Application State/Syride.SYS-PC-Tool.savedState",
-  ]
+             ]
 end
 
 
