@@ -1,4 +1,4 @@
-class ivel < Formula
+class Ivel < Formula
   desc "HomeBrew Tap by ivel test"
   homepage "https://github.com/IvoElferink/homebrew-ivel"
   url "https://github.com/IvoElferink/homebrew-ivel/archive/refs/tags/v0.0.1.tar.gz"
