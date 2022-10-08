@@ -8,7 +8,7 @@ cask "f1mv" do
   homepage "https://beta.f1mv.com"
 
   auto_updates true
-  depends_on macos: ">= :monetery""
+  depends_on macos: ">= :monetery"
 
   app "MultiViewer for F1.app"
 
