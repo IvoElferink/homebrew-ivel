@@ -11,4 +11,10 @@ cask "f1mv" do
   depends_on macos: ">= :monetery""
 
   app "MultiViewer for F1.app"
+
+  zap trash: [
+    "~/Library/Application Support/MultiViewer for F1",
+    "~/Library/Preferences/com.electron.multiviewer-for-f1.plist",
+    "~/Library/Saved Application State/com.electron.multiviewer-for-f1.savedState",
+  ]
 end
