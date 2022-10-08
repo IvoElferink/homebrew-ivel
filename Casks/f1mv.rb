@@ -8,6 +8,9 @@ cask "f1mv" do
   homepage "https://beta.f1mv.com"
 
   livecheck do
+    url :url
+    strategy :page_match
+    regex(%r{href=.*?/download/.*?/MultiViewer.for.F1--(\d+(?:\.\d+)*)\.dmg}i)
   end
 
   auto_updates true
