@@ -1,8 +1,9 @@
 cask "multiviewer-for-f1-beta" do
   version "1.8.5"
+  fileid "80314050"
   sha256 "4665ac9ff2c7124136b356033fa9cbd581769d447a1e8641381b87c556a899b8"
 
-  url "https://releases.f1mv.com/download/80314050/MultiViewer.for.F1-#{version}-universal.dmg"
+  url "https://releases.f1mv.com/download/#{fileid}/MultiViewer.for.F1-#{version}-universal.dmg"
   name "MultiViewer for F1"
   desc "Experience F1TV® like never before"
   homepage "https://beta.f1mv.com"
