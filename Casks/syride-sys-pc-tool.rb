@@ -18,5 +18,5 @@ cask "syride-sys-pc-tool" do
 
   zap trash: [
     "~/Library/Saved Application State/Syride.SYS-PC-Tool.savedState",
-             ]
+  ]
 end
