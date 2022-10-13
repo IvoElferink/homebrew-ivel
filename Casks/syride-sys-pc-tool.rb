@@ -4,23 +4,19 @@ cask "syride-sys-pc-tool" do
 
   url "https://www.syride.com/downloads/SYS_PC_Tool_setup_mac-#{version}.pkg"
   name "Syride SYS PC Tool Software"
-  desc "Necessary for downloading flights, customizing screens, upgrading instrument..."
-  homepage "https://www.syride.com"
+  desc "Necessary for downloading flights, customizing screens, upgrading instrument"
+  homepage "https://www.syride.com/"
 
   auto_updates true
   depends_on macos: ">= :sierra"
 
   pkg "SYS_PC_TOOL_setup_mac-#{version}.pkg",
-    choices: [
-             ]
+      choices: []
 
-  uninstall pkgutil: [
-                     ],
-            delete: "/Applications/SYS-PC-Tool.app"
+  uninstall pkgutil: [],
+            delete:  "/Applications/SYS-PC-Tool.app"
 
   zap trash: [
     "~/Library/Saved Application State/Syride.SYS-PC-Tool.savedState",
              ]
 end
-
-
