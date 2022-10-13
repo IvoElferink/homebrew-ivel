@@ -1,4 +1,4 @@
-cask "multiviewer-for-f1" do
+cask "multiviewer-for-f1-beta" do
   version "1.8.5"
   sha256 "4665ac9ff2c7124136b356033fa9cbd581769d447a1e8641381b87c556a899b8"
 
@@ -8,6 +8,7 @@ cask "multiviewer-for-f1" do
   homepage "https://beta.f1mv.com"
 
   auto_updates true
+  conflicts_with cask: "multiviewer-for-f1"
   depends_on macos: ">= :monterey"
 
   app "MultiViewer for F1.app"
