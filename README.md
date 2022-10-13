@@ -17,7 +17,7 @@ For personal use, no guarantees
 - Install: `brew install multiviewer-for-f1`
 - Uninstall: `brew uninstall multiviewer-for-f1`
 
-### Syride SYS PC Tookl
+### Syride SYS PC Tool
 [Necessary for downloading flights, customizing screens, upgrading instrument...](https://www.syride.com)
 - Install: `brew install syride-sys-pc-tool`
 - Uninstall: `brew uninstall syride-sys-pc-tool`
