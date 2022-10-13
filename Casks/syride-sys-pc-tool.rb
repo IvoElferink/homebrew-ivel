@@ -4,7 +4,7 @@ cask "syride-sys-pc-tool" do
 
   url "https://www.syride.com/downloads/SYS_PC_Tool_setup_mac-#{version}.pkg"
   name "Syride SYS PC Tool Software"
-  desc "Syride SYS PC Tool Software - Necessary for downloading flights, customizing screens, upgrading instrument..."
+  desc "Necessary for downloading flights, customizing screens, upgrading instrument..."
   homepage "https://www.syride.com"
 
   auto_updates true

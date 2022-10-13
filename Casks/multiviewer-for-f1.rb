@@ -4,7 +4,7 @@ cask "multiviewer-for-f1" do
 
   url "https://releases.f1mv.com/download/80314050/MultiViewer.for.F1-#{version}-universal.dmg"
   name "MultiViewer for F1"
-  desc "MultiViewer for F1 beta - Experience F1TV® like never before"
+  desc "Experience F1TV® like never before"
   homepage "https://beta.f1mv.com"
 
   auto_updates true
