@@ -14,8 +14,8 @@ For personal use, no guarantees
 ## casks
 ### MultiViewer for F1
 [Experience F1TV® like never before](https://beta.f1mv.com)
-- Install: `brew install f1mv`
-- Uninstall: `brew uninstall f1mv`
+- Install: `brew install multiviewer-for-f1`
+- Uninstall: `brew uninstall multiviewer-for-f1`
 
 ### Syride SYS PC Tookl
 [Necessary for downloading flights, customizing screens, upgrading instrument...](https://www.syride.com)

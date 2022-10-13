@@ -1,4 +1,4 @@
-cask "f1mv" do
+cask "multiviewer-for-f1" do
   version "1.8.5"
   sha256 "4665ac9ff2c7124136b356033fa9cbd581769d447a1e8641381b87c556a899b8"
 
