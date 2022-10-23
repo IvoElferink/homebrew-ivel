@@ -1,8 +1,12 @@
-cask "multiviewer-for-f1-beta" do
-  version "1.8.5,80314050"
-  sha256 "4665ac9ff2c7124136b356033fa9cbd581769d447a1e8641381b87c556a899b8"
+cask "multiviewer-for-f1-beta-x64" do
+  arch arm: "arm64", intel: "x64"
 
-  url "https://releases.f1mv.com/download/#{version.csv.second}/MultiViewer.for.F1-#{version.csv.first}-universal.dmg"
+  version arm:   "1.9.5,81907283"
+          intel: "1.9.5,81907529"
+  sha256 arm:   "b7252619f2fe82f8dabf2722c7681612310234cedb363faa5c76651776db3eba"
+         intel: "2f0101dc2b512596556ece518944591ee2bb9279d358c073e225e1120e37b3fb"
+
+  url "https://releases.f1mv.com/download/#{version.csv.second}/MultiViewer.for.F1-#{version.csv.first}-#{arch}.dmg"
   name "MultiViewer for F1"
   desc "Experience F1TV® like never before"
   homepage "https://beta.f1mv.com/"
