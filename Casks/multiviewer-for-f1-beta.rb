@@ -1,4 +1,4 @@
-cask "multiviewer-for-f1-beta-x64" do
+cask "multiviewer-for-f1-beta" do
   version "1.9.5,81907529"
   sha256 "2f0101dc2b512596556ece518944591ee2bb9279d358c073e225e1120e37b3fb"
 
