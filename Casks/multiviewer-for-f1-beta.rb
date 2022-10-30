@@ -6,8 +6,8 @@ cask "multiviewer-for-f1-beta" do
     sha256 "351b9db6062e3c8eb0efabbc99287f9e325a1ea57d01cfbac899fab581b11b25"
   end
   on_arm do
-    version "1.9.7,82577562"
-    sha256 "2609bbb6c0348c875c2ba9cff851ea6c12d78ee81f4c3204f09472cd4b1fd0eb"
+    version "1.9.8,82829141"
+    sha256 "8e0db878a9b165b30ca1a7fc7cf78fff517fd376ed74f67fcef741499c6de5e5"
   end
 
   url "https://releases.f1mv.com/download/#{version.csv.second}/MultiViewer.for.F1-#{version.csv.first}-#{arch}.dmg"
