@@ -3,7 +3,7 @@ cask "multiviewer-for-f1-beta" do
 
   on_intel do
     version "1.10.2,84251119"
-    sha256 "652590aa837f87d8d45569dc4764dd73c4a829c87dc91b5e6c8b49a69ff4a087"
+    sha256 "adcaf5f8ccf1d997364ffaf310f0ef4909fce3172d8d84ad2b0494ad6454be92"
   end
   on_arm do
     version "1.10.2,84250748"
