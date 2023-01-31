@@ -2,8 +2,8 @@ cask "multiviewer-for-f1-beta" do
   arch arm: "arm64", intel: "x64"
 
   on_intel do
-    version "1.12.2,92609567"
-    sha256 "ac9f1ab8808b18830263ae683a0bbe0be0d12f2536a5cd9b59711c2963935ba2"
+    version "1.12.3,93471385"
+    sha256 "77a91496a6265c00df49702b655679f44d0bc8698c5106d0f9bb46d65d6d3e4f"
   end
   on_arm do
     version "1.12.3,93470979"
