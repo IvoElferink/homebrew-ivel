@@ -15,11 +15,6 @@ For personal use, no guarantees
 
 ---
 ## casks
-### MultiViewer for F1
-[Experience F1TV® like never before](https://beta.f1mv.com)
-- Install: `brew install multiviewer-for-f1-beta`
-- Uninstall: `brew uninstall multiviewer-for-f1-beta`
-
 ### Syride SYS PC Tool
 [Necessary for downloading flights, customizing screens, upgrading instrument...](https://www.syride.com)
 - Install: `brew install syride-sys-pc-tool`
