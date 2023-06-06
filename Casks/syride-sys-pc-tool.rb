@@ -1,6 +1,6 @@
 cask "syride-sys-pc-tool" do
-  version "6.31"
-  sha256 "1d3b9dc8a156aba4e973afbc591f7258e1544d5ae0851d2f044a0b9b4963b0ff"
+  version "6.33"
+  sha256 "509e6b833c7fc907c3c0989704b941acba6f9d13abe5f0c20834ee4d77eb0c4f"
 
   url "https://www.syride.com/downloads/SYS_PC_Tool_setup_mac-#{version}.pkg"
   name "Syride SYS PC Tool Software"
