@@ -15,7 +15,3 @@ For personal use, no guarantees
 
 ---
 ## casks
-### Syride SYS PC Tool
-[Necessary for downloading flights, customizing screens, upgrading instrument...](https://www.syride.com)
-- Install: `brew install syride-sys-pc-tool`
-- Uninstall: `brew uninstall syride-sys-pc-tool`
